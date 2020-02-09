@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wowhead>
+	<item id="18608">
+		<name>
+			<![CDATA[Benediction]]>
+		</name>
+		<level>
+			58
+		</level>
+		<quality id="4">
+			Epic
+		</quality>
+		<class id="2">
+			<![CDATA[Weapons]]>
+		</class>
+		<subclass id="10">
+			<![CDATA[Staves]]>
+		</subclass>
+		<icon displayId="31347">
+			inv_staff_30
+		</icon>
+		<inventorySlot id="17">
+			Two-Hand
+		</inventorySlot>
+		<htmlTooltip>
+			<![CDATA[
+			<table><tr><td><!--nstart--><b class="q4">Benediction</b><!--nend--><!--ndstart--><!--ndend--><span class="q"><br>Item Level <!--ilvl-->58</span><br /><!--bo-->Binds when picked up<br />Unique<table width="100%"><tr><td>Two-Hand</td><th><!--scstart2:10--><span class="q1">Staff</span><!--scend--></th></tr></table><table width="100%"><tr>
+			<td><span><!--dmg-->17 - 24 Damage</span></td>
+			<th>Speed <!--spd-->3.60</th>
+			</tr></table><!--dps-->(5.7 damage per second)<br><span><!--stat5-->+68 Intellect</span><br><span><!--stat7-->+23 Stamina</span><!--ebstats--><br><span class="q2">+<!--rtg32-->6 Critical Strike</span><br><span class="q2">+<!--rtg40-->15 Versatility</span><!--egstats--><!--eistats--><!--e--><!--ps--><br>Durability 120 / 120<div class="wowhead-tooltip-item-classes">Classes: <a href="https://www.wowhead.com/class=5" class="c5">Priest</a></div></td></tr></table><table><tr><td><span class="q2">Use: <a href="https://www.wowhead.com/spell=23041" class="q2">Calls forth Anathema.</a> (30 Min Cooldown)</span><!--itemEffects:1--><br>Requires Level <!--rlvl-->60<div class="whtt-sellprice">Sell Price: <span class="moneycopper">1</span></div></td></tr></table>
+			]]>
+		</htmlTooltip>
+		<json>
+			<![CDATA["appearances":{"0":[31347,""]},"attainable":2,"bonustrees":[1307],"classs":2,"displayid":31347,"dps":5.78,"flags2":8704,"id":18608,"level":58,"name":"Benediction","quality":4,"reqclass":16,"reqlevel":60,"slot":17,"slotbak":17,"specs":[258,257,256],"speed":3.60,"subclass":10]]>
+		</json>
+		<jsonEquip>
+			<![CDATA["appearances":{"0":[31347,""]},"classes":16,"cooldown":1800000,"critstrkrtng":6,"displayid":31347,"dmgmax1":24,"dmgmin1":17,"dmgrange":0.30,"dmgtype1":0,"dps":5.78,"dura":120,"int":68,"maxcount":1,"mledmgmax":24,"mledmgmin":17,"mledps":5.78,"mlespeed":3.60,"reqlevel":60,"sellprice":1,"sheathtype":2,"slotbak":17,"speed":3.60,"sta":23,"versatility":15]]>
+		</jsonEquip>
+		<createdBy>
+			<spell id="23151" name="Balance of Light and Shadow" icon="inv_staff_30" minCount="0" maxCount="0">
+				<reagent id="18659" name="Splinter of Nordrassil" quality="4" icon="inv_staff_15" count="1" />
+				<reagent id="18646" name="The Eye of Divinity" quality="4" icon="spell_holy_mindsooth" count="1" />
+				<reagent id="18665" name="The Eye of Shadow" quality="4" icon="spell_shadow_unholyfrenzy" count="1" />
+			</spell>
+			<spell id="23042" name="Call Benediction" icon="inv_staff_30" minCount="0" maxCount="0">
+			</spell>
+		</createdBy>
+		<link>
+			https://www.wowhead.com/item=18608
+		</link>
+	</item>
+</wowhead>
+<wowhead>
+	<item id="18608">
+		<name>
+			Benediction
+		</name>
+		<level>
+			58
+		</level>
+		<quality id="4">
+			Epic
+		</quality>
+		<class id="2">
+			Weapons
+		</class>
+		<subclass id="10">
+			Staves
+		</subclass>
+		<icon displayId="31347">
+			inv_staff_30
+		</icon>
+		<inventorySlot id="17">
+			Two-Hand
+		</inventorySlot>
+		<htmlTooltip>
+			&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;!--nstart--&gt;&lt;b class="q4"&gt;Benediction&lt;/b&gt;&lt;!--nend--&gt;&lt;!--ndstart--&gt;&lt;!--ndend--&gt;&lt;span class="q"&gt;&lt;br&gt;Item Level &lt;!--ilvl--&gt;58&lt;/span&gt;&lt;br /&gt;&lt;!--bo--&gt;Binds when picked up&lt;br /&gt;Unique&lt;table width="100%"&gt;&lt;tr&gt;&lt;td&gt;Two-Hand&lt;/td&gt;&lt;th&gt;&lt;!--scstart2:10--&gt;&lt;span class="q1"&gt;Staff&lt;/span&gt;&lt;!--scend--&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/table&gt;&lt;table width="100%"&gt;&lt;tr&gt;
+			&lt;td&gt;&lt;span&gt;&lt;!--dmg--&gt;17 - 24 Damage&lt;/span&gt;&lt;/td&gt;
+			&lt;th&gt;Speed &lt;!--spd--&gt;3.60&lt;/th&gt;
+			&lt;/tr&gt;&lt;/table&gt;&lt;!--dps--&gt;(5.7 damage per second)&lt;br&gt;&lt;span&gt;&lt;!--stat5--&gt;+68 Intellect&lt;/span&gt;&lt;br&gt;&lt;span&gt;&lt;!--stat7--&gt;+23 Stamina&lt;/span&gt;&lt;!--ebstats--&gt;&lt;br&gt;&lt;span class="q2"&gt;+&lt;!--rtg32--&gt;6 Critical Strike&lt;/span&gt;&lt;br&gt;&lt;span class="q2"&gt;+&lt;!--rtg40--&gt;15 Versatility&lt;/span&gt;&lt;!--egstats--&gt;&lt;!--eistats--&gt;&lt;!--e--&gt;&lt;!--ps--&gt;&lt;br&gt;Durability 120 / 120&lt;div class="wowhead-tooltip-item-classes"&gt;Classes: &lt;a href="https://www.wowhead.com/class=5" class="c5"&gt;Priest&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="q2"&gt;Use: &lt;a href="https://www.wowhead.com/spell=23041" class="q2"&gt;Calls forth Anathema.&lt;/a&gt; (30 Min Cooldown)&lt;/span&gt;&lt;!--itemEffects:1--&gt;&lt;br&gt;Requires Level &lt;!--rlvl--&gt;60&lt;div class="whtt-sellprice"&gt;Sell Price: &lt;span class="moneycopper"&gt;1&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+		</htmlTooltip>
+		<json>
+			"appearances":{"0":[31347,""]},"attainable":2,"bonustrees":[1307],"classs":2,"displayid":31347,"dps":5.78,"flags2":8704,"id":18608,"level":58,"name":"Benediction","quality":4,"reqclass":16,"reqlevel":60,"slot":17,"slotbak":17,"specs":[258,257,256],"speed":3.60,"subclass":10
+		</json>
+		<jsonEquip>
+			"appearances":{"0":[31347,""]},"classes":16,"cooldown":1800000,"critstrkrtng":6,"displayid":31347,"dmgmax1":24,"dmgmin1":17,"dmgrange":0.30,"dmgtype1":0,"dps":5.78,"dura":120,"int":68,"maxcount":1,"mledmgmax":24,"mledmgmin":17,"mledps":5.78,"mlespeed":3.60,"reqlevel":60,"sellprice":1,"sheathtype":2,"slotbak":17,"speed":3.60,"sta":23,"versatility":15
+		</jsonEquip>
+		<createdBy>
+			<spell icon="inv_staff_30" id="23151" maxCount="0" minCount="0" name="Balance of Light and Shadow">
+				<reagent count="1" icon="inv_staff_15" id="18659" name="Splinter of Nordrassil" quality="4" />
+				<reagent count="1" icon="spell_holy_mindsooth" id="18646" name="The Eye of Divinity" quality="4" />
+				<reagent count="1" icon="spell_shadow_unholyfrenzy" id="18665" name="The Eye of Shadow" quality="4" />
+			</spell>
+			<spell icon="inv_staff_30" id="23042" maxCount="0" minCount="0" name="Call Benediction" />
+		</createdBy>
+		<link>
+			https://www.wowhead.com/item=18608
+		</link>
+	</item>
+</wowhead>
