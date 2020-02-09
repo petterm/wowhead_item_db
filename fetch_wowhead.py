@@ -1,8 +1,8 @@
-import requests
-# from xml.dom import minidom
-import xml.etree.ElementTree as ET
-import json
+import re
 import csv
+import json
+import requests
+import xml.etree.ElementTree as ET
 
 
 SOURCE_ITEM_DB = 'item_db.csv'
@@ -120,8 +120,22 @@ def print_db():
             writer.writerow(item)
 
 
+def period_replace(m):
+    return m.group(1) + ',' + m.group(2)
+
+
+def number_format_comma():
+    with open(TARGET_ITEM_DB, mode='r') as file:
+        data = file.read()
+
+    data = re.sub(r'(\d+)\.(\d+)', period_replace, data)
+
+    with open(TARGET_ITEM_DB, mode='w') as file:
+        file.write(data)
+
 
 if __name__ == '__main__':
     # fetch_item('Benediction')
     # print(json.dumps(stat_types, indent=2))
     print_db()
+    number_format_comma()
